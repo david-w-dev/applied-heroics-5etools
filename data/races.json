@@ -17,14 +17,7 @@
 				}
 			],
 			"darkvision": 60,
-			"languageProficiencies": [
-				{
-					"common": true,
-					"monkey|AppliedHeroics": true
-				}
-			],
 			"entries": [
-				"Kostarian Macaques are small primates native to the rainforests of Kostaria.",
 				{
 					"type": "entries",
 					"name": "Ability Score Increase",
@@ -55,13 +48,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You have {@sense Darkvision} with a range of 60 feet."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Fury of the Small",
 					"entries": [
 						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a Short or Long Rest."
@@ -81,7 +67,8 @@
 						"You can understand Common and Monkey."
 					]
 				}
-			]
+			],
+			"edition": "one"
 		}
 	]
 }
