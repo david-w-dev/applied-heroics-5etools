@@ -14,6 +14,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Dexterity score increases by 2, and your Constitution score increases by 1."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Size",
 					"entries": [
 						"Your size is Small."
@@ -55,7 +62,13 @@
 					]
 				}
 			],
-			"edition": "one"
+			"edition": "one",
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			]
 		}
 	]
 }
