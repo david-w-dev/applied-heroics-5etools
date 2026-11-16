@@ -1,0 +1,12 @@
+{
+	"monster": [
+		{
+			"name": "Swordbound Specter",
+			"source": "AppliedHeroics",
+			"_copy": {
+				"name": "Specter",
+				"source": "XMM"
+			}
+		}
+	]
+}
