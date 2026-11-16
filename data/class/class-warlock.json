@@ -1,0 +1,183 @@
+{
+	"subclass": [
+		{
+			"name": "Swordbound Magus",
+			"shortName": "Swordbound Magus",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"edition": "one",
+			"subclassFeatures": [
+				"Swordbound Magus|Warlock|XPHB|Swordbound Magus|AppliedHeroics|3",
+				"Swordbound Specter|Warlock|XPHB|Swordbound Magus|AppliedHeroics|6",
+				"Swordbound Parry|Warlock|XPHB|Swordbound Magus|AppliedHeroics|10",
+				"Relentless Curse|Warlock|XPHB|Swordbound Magus|AppliedHeroics|14"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"blur|xphb",
+							"shadow blade|xge",
+							"hex|xphb",
+							"shield|xphb"
+						],
+						"5": [
+							"blink|xphb",
+							"elemental weapon|xphb"
+						],
+						"7": [
+							"phantasmal killer|xphb",
+							"fire shield|xphb"
+						],
+						"9": [
+							"hold monster|xphb",
+							"cone of cold|xphb"
+						]
+					}
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Swordbound Magus",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Swordbound Spells|Warlock|XPHB|Swordbound Magus|AppliedHeroics|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Keeper of the Blade|Warlock|XPHB|Swordbound Magus|AppliedHeroics|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lingering Malice|Warlock|XPHB|Swordbound Magus|AppliedHeroics|3"
+				}
+			]
+		},
+		{
+			"name": "Swordbound Spells",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You always have certain spells prepared when you reach particular Warlock levels, as shown in the Swordbound Spells table. These spells count as Warlock spells for you, but they don't count against the number of Warlock spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Swordbound Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Blur|XPHB}, {@spell Shadow Blade|XGE}, {@spell Hex|XPHB}, {@spell Shield|XPHB}"
+						],
+						[
+							"5th",
+							"{@spell Blink|XPHB}, {@spell Elemental Weapon|XPHB}"
+						],
+						[
+							"7th",
+							"{@spell Phantasmal Killer|XPHB}, {@spell Fire Shield|XPHB}"
+						],
+						[
+							"9th",
+							"{@spell Hold Monster|XPHB}, {@spell Cone of Cold|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Keeper of the Blade",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain proficiency with Medium Armor and Shields. You also gain the Weapon Mastery property of one weapon of your choice."
+			]
+		},
+		{
+			"name": "Lingering Malice",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As a Bonus Action, choose one creature you can see. That creature is cursed by you for 1 minute. The curse ends early if either you or the target dies. You can use this feature twice, and you regain all expended uses when you finish a Short or Long Rest.",
+				"While a creature is cursed by this feature, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Improved Critical.} Your attack rolls against the cursed creature score a Critical Hit on a roll of 19 or 20 on the d20.",
+						"{@b Maim.} You gain a bonus to damage rolls against the cursed creature equal to 2 + half your Warlock level (round down).",
+						"{@b Reaper.} When the cursed creature dies, you can either transfer the curse to another creature you can see or regain Hit Points equal to half your Warlock level + your Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Swordbound Specter",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 6,
+			"entries": [
+				"When a creature cursed by your Lingering Malice dies, you can bind its departing spirit to your service, causing a {@creature Swordbound Specter|AppliedHeroics} to rise from its corpse. The specter acts immediately after your turn and obeys your verbal commands.",
+				"The specter gains Temporary Hit Points equal to half your Warlock level. It gains a bonus to its attack rolls equal to your Charisma modifier (minimum +0). It remains in your service until you finish a Long Rest, at which point it vanishes."
+			]
+		},
+		{
+			"name": "Swordbound Parry",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 10,
+			"entries": [
+				"When a creature cursed by your Lingering Malice hits you with an attack roll, you can take a Reaction to roll {@dice 1d6}. On a roll of 4 or higher, the attack misses you instead, regardless of its roll."
+			]
+		},
+		{
+			"name": "Relentless Curse",
+			"source": "AppliedHeroics",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Swordbound Magus",
+			"subclassSource": "AppliedHeroics",
+			"level": 14,
+			"entries": [
+				"A creature cursed by your Lingering Malice has its Speed reduced by 15 feet.",
+				"As a Bonus Action, you can teleport up to 60 feet to an unoccupied space you can see within 5 feet of a creature cursed by your Lingering Malice."
+			]
+		}
+	]
+}
