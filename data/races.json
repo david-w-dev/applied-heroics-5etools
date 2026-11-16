@@ -10,21 +10,8 @@
 				"walk": 30,
 				"climb": 30
 			},
-			"ability": [
-				{
-					"dex": 2,
-					"con": 1
-				}
-			],
 			"darkvision": 60,
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Ability Score Increase",
-					"entries": [
-						"Your Dexterity score increases by 2, and your Constitution score increases by 1."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Size",
